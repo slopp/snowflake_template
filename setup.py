@@ -6,6 +6,7 @@ setup(
     install_requires=[
         "dagster",
         "dagster-snowflake",
+        "snowflake-python-connector[pandas]",
         "dagster-snowflake-pandas",
         "dagster-cloud",
         "boto3",
