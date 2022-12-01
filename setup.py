@@ -5,7 +5,6 @@ setup(
     packages=find_packages(exclude=["quickstart_snowflake_tests"]),
     install_requires=[
         "dagster",
-        "dagster-snowflake",
         "snowflake-python-connector[pandas]",
         "dagster-snowflake-pandas",
         "dagster-cloud",
